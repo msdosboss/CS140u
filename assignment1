@@ -1,0 +1,41 @@
+a.
+    echo this is some text
+        "this is some text"
+    echo will take the rest of what I type as an arg and then print it to the command line.
+b.
+    whoami
+        "orcalord"
+    whoami prints the current user that is logged in.
+c.
+    hostname
+        "orcalord-systemproductname"
+    prints the name of the machine I am currently on.
+d.
+    ifconfig
+        "enp8s0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether f0:2f:74:20:4c:c2  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 21831201  bytes 3485451010 (3.2 GiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 21831201  bytes 3485451010 (3.2 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp7s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.127  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::4e7b:e020:be81:22d1  prefixlen 64  scopeid 0x20<link>
+        ether 44:af:28:36:7f:31  txqueuelen 1000  (Ethernet)
+        RX packets 30443996  bytes 22420777780 (20.8 GiB)
+        RX errors 0  dropped 302  overruns 0  frame 0
+        TX packets 12066949  bytes 1381896600 (1.2 GiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0"
+    prints infomation about my network interfaces such as the ip, subnet, and gateway.
+
+I am using the pacman package manager
