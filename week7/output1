@@ -1,0 +1,23 @@
+NAME="Alpine Linux"
+ID=alpine
+VERSION_ID=3.18.0
+PRETTY_NAME="Alpine Linux v3.18"
+HOME_URL="https://alpinelinux.org/"
+BUG_REPORT_URL="https://gitlab.alpinelinux.org/alpine/aports/-/issues"
+bin
+dev
+etc
+home
+lib
+media
+mnt
+opt
+proc
+root
+run
+sbin
+srv
+sys
+tmp
+usr
+var
